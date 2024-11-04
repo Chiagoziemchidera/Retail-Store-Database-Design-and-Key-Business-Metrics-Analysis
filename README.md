@@ -28,7 +28,7 @@ Note: Year 2021 transaction data consists of only January and Febraury.
 
 *The Entity-Relationship Diagram (ERD) illustrates the tables, fields, primary keys, and relationships within the database. This visual guide provides a high-level overview of the entire data model.*
 
-All SQL codes used from creating the database to populating normalized tables can be viewd [here]().
+All SQL codes used from creating the database to populating normalized tables can be viewed in [Salessql](https://github.com/Chiagoziemchidera/Retail-Store-Database-Design-and-Key-Business-Metrics-Analysis/blob/main/salessql.sql).
 
 ### Relationships
 
