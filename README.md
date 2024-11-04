@@ -18,7 +18,7 @@ Through this project, BrightMart organized its data into a structured relational
 The database is designed to capture and manage key transactional data across orders, customers, stores, and products. The structure is normalized to ensure efficient data storage, reduce redundancy, and maintain data integrity.
 
 * Original Dataset
-An initial table, `SalesData`, was created with columns mirroring the structure of the CSV file.
+An initial table, `SalesData`, was created with columns mirroring the structure of the original [CSV file](https://github.com/Chiagoziemchidera/Retail-Store-Database-Design-and-Key-Business-Metrics-Analysis/blob/main/Transaction2.csv).
 `TransactionID`, `OrderNumber`, `LineItem`, `OrderDate`, `DeliveryDate`, `Quantity`, `CustomerID`, `CustomerGender`, `CustomerName`, `CustomerCity`, `CustomerStateCode`, `CustomerState`, `CustomerZip`, `CustomerCountry`, `CustomerContinent`, `CustomerDOB`, `StoreID`, `StoreCountry`, `StoreState`, `StoreSqMeters`, `StoreOpenDate`, `ProductID`, `ProductName`, `ProductBrand`, `ProductColor`, `ProductCost`, `ProductPrice`, `ProductCategoryID`, `ProductCategory`, `ProductSubcategoryID`, `ProductSubcategory`
 Note: Year 2021 transaction data consists of only January and February.
 
