@@ -429,6 +429,8 @@ These findings provide a comprehensive view of the business’s financial and op
 
 # Appendix
 
+<img width="901" alt="power bi model" src="https://github.com/user-attachments/assets/4b193056-8624-40c7-b434-1da7cb21f356">
+
 All DAX codes for Power BI dashboard design.
 
 * Date Dimension Table Creation
