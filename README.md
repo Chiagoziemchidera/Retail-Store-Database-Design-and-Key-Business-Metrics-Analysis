@@ -3,7 +3,7 @@
 ## Project Overview
 BrightMart is a fictitious retail chain with stores across multiple regions, offering a wide selection of products including electronics, fashion, groceries, and home essentials. Although BrightMart has built a strong customer base, it identified a significant opportunity to leverage its rich transaction and customer data for more strategic decision-making. To unlock this potential, BrightMart embarked on a data analysis project aimed at transforming its raw sales data into actionable insights.
 
-Through this project, BrightMart organized its data into a structured relational database, analyzed revenue trends, product profitability, customer demographics, and store performance. By understanding its top-selling products, high-performing store locations, and customer purchasing patterns, BrightMart is now equipped to optimize inventory management, tailor marketing efforts, and improve the customer experience. This data-driven approach positions BrightMart to enhance operational efficiency, drive profitability, and foster deeper customer loyalty across its expanding network.
+Through this project, BrightMart organized its data into a structured relational database and analyzed revenue trends, product profitability, customer demographics, and store performance. By understanding its top-selling products, high-performing store locations, and customer purchasing patterns, BrightMart is now equipped to optimize inventory management, tailor marketing efforts, and improve the customer experience. This data-driven approach positions BrightMart to enhance operational efficiency, drive profitability, and foster deeper customer loyalty across its expanding network.
 
 ### Project Workflow
 1. **Database Creation**: Created a MySQL database to store the data.
@@ -11,7 +11,7 @@ Through this project, BrightMart organized its data into a structured relational
 3. **Data Normalization**: Normalized the data into multiple tables to improve data organization and minimize redundancy.
 4.  **Data Model and ERD Diagram**: Designed a relational model to structure data and visualize relationships between entities. Created an ERD diagram to outline the tables, keys, and relationships.
 5. **Querying and Analysis**: Used SQL queries to discover business insights.
-6. **Data Visualization**: Loaded data from database into Power BI to visualized metrics and insights.
+6. **Data Visualization**: Loaded data from the created MySQL database into Power BI to visualize metrics and insights.
 
 ## Data Structure Overview
 
@@ -20,7 +20,7 @@ The database is designed to capture and manage key transactional data across ord
 * Original Dataset
 An initial table, `SalesData`, was created with columns mirroring the structure of the CSV file.
 `TransactionID`, `OrderNumber`, `LineItem`, `OrderDate`, `DeliveryDate`, `Quantity`, `CustomerID`, `CustomerGender`, `CustomerName`, `CustomerCity`, `CustomerStateCode`, `CustomerState`, `CustomerZip`, `CustomerCountry`, `CustomerContinent`, `CustomerDOB`, `StoreID`, `StoreCountry`, `StoreState`, `StoreSqMeters`, `StoreOpenDate`, `ProductID`, `ProductName`, `ProductBrand`, `ProductColor`, `ProductCost`, `ProductPrice`, `ProductCategoryID`, `ProductCategory`, `ProductSubcategoryID`, `ProductSubcategory`
-Note: Year 2021 transaction data consists of only January and Febraury.
+Note: Year 2021 transaction data consists of only January and February.
 
 * Normalized Structure (3NF)
 
